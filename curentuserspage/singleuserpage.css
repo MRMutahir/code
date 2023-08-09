@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bgprofile {
+    margin: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+    position: relative;
+}
+#profileimageid
+{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+.name{
+    position: absolute;
+    top: 260px;
+    left: 220px;
+}
+.btn1{
+    position: absolute;
+    top: 260px;
+    left: 90%;
+    background: teal;
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+/* main-post-about */
+.main-post-about{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* About  */
+
+
+
+.about {
+    width: 30%;
+    height: auto;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.about div {
+    margin: 20px 10px;
+    text-align: justify;
+}
+.btn2{
+    background: teal;
+    width: 100px;
+    border-radius: 10px;
+}
+/* postsection */
+
+.postsection{
+    width: 60%;
+    height: auto;
+    background-color: rgb(57, 231, 14);
+   overflow-y: scroll;
+  
+}
